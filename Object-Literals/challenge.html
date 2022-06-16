@@ -56,10 +56,59 @@
   Joe Walsh, 58, 90001
   Lemmy Kilmister, 57, 21120
    */
+   let page = {
+    firstName: 'Jimmy',
+    lastName: 'Page',
+    age: 62,
+    zipCode: '00821'
+};
 
+let nielsen = {
+    firstName: 'Rick',
+    lastName: 'Nielsen',
+    age: 57,
+    zipCode: 61016
+};
+
+let waslh = {
+    firstName: 'Joe',
+    lastName: 'Walsh',
+    age: 58,
+    zipCode: 90001
+};
+
+let kilmister = {
+    firstName: 'Lemmy',
+    lastName: 'Kilmister',
+    age: 57,
+    zipCode: 12210
+};
+
+let people = [];
+people.push(page, nielsen, waslh, kilmister);
+
+function printInfo(){
+    for(let i=0; i<people.length; i++){
+        console.log(
+            `Name: ${people[i].firstName} ${people[i].lastName}
+Age: ${people[i].age}
+Zip Code: ${people[i].zipCode}
+`);
+    }
+}
+
+printInfo();
+
+//create row for each person and add to html table 
+//get table
+let musicianTable = document.getElementsByTagName('table');
+//create tbody
+let musicianTbody = document.createElement('tbody');
+//add tbody to table
+musicianTable.append(musicianTbody);
+//create 
   // *** ENTER YOUR CODE HERE ***
   // Write the JavaScript to return a valid table row containing the data for a given Person object
-
 </script>
 </body>
 </html>
