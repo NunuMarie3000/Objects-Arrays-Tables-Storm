@@ -1,0 +1,25 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.channel-guide{
+    display:flex;
+}
+
+td, th {
+    border: 1.5px solid rgb(65, 2, 68);
+    padding: 10px 20px;
+}
+  
+td{
+    text-align: center;
+}
+  
+tr:nth-child(odd) td {
+    background-color: rgb(245,245,245);
+}
+
+tr:nth-child(odd) td:hover{
+    background-color: aqua;
+    color: blueviolet;
+}

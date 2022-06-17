@@ -47,66 +47,85 @@
 </table>
 </p>
 <script>
+//Let's try again later
+//   // *** ENTER YOUR CODE HERE ***
+//   // Create a list of Person objects as described in the README
+//   /*
+//   Jimmy Page, 62, 00821
+//   Rick Nielsen, 57, 61016
+//   Joe Walsh, 58, 90001
+//   Lemmy Kilmister, 57, 21120
+//    */
+//    let page = {
+//     firstName: 'Jimmy',
+//     lastName: 'Page',
+//     age: 62,
+//     zipCode: '00821'
+// };
 
-  // *** ENTER YOUR CODE HERE ***
-  // Create a list of Person objects as described in the README
-  /*
-  Jimmy Page, 62, 00821
-  Rick Nielsen, 57, 61016
-  Joe Walsh, 58, 90001
-  Lemmy Kilmister, 57, 21120
-   */
-   let page = {
-    firstName: 'Jimmy',
-    lastName: 'Page',
-    age: 62,
-    zipCode: '00821'
-};
+// let nielsen = {
+//     firstName: 'Rick',
+//     lastName: 'Nielsen',
+//     age: 57,
+//     zipCode: 61016
+// };
 
-let nielsen = {
-    firstName: 'Rick',
-    lastName: 'Nielsen',
-    age: 57,
-    zipCode: 61016
-};
+// let waslh = {
+//     firstName: 'Joe',
+//     lastName: 'Walsh',
+//     age: 58,
+//     zipCode: 90001
+// };
 
-let waslh = {
-    firstName: 'Joe',
-    lastName: 'Walsh',
-    age: 58,
-    zipCode: 90001
-};
+// let kilmister = {
+//     firstName: 'Lemmy',
+//     lastName: 'Kilmister',
+//     age: 57,
+//     zipCode: 12210
+// };
 
-let kilmister = {
-    firstName: 'Lemmy',
-    lastName: 'Kilmister',
-    age: 57,
-    zipCode: 12210
-};
+// let people = [];
+// people.push(page, nielsen, waslh, kilmister);
 
-let people = [];
-people.push(page, nielsen, waslh, kilmister);
+// //create row for each person and add to html table 
 
-function printInfo(){
-    for(let i=0; i<people.length; i++){
-        console.log(
-            `Name: ${people[i].firstName} ${people[i].lastName}
-Age: ${people[i].age}
-Zip Code: ${people[i].zipCode}
-`);
-    }
-}
+// //create new td and print each first name + last name one at a time , adding them to the tr
+// function printInfo(person){
+//   //get table
+//   let musicianTable = document.getElementsByTagName('table');
+//   //get tbody
+//   let musicianTbody = document.createElement('tbody');
+//   //add tbody to table
+//   musicianTable.appendChild(musicianTbody);
+//   for(let i=0; i<people.length; i++){
+//     //create new row for each object in array
+//     let tableRow = document.createElement('tr');
+//     // //add tr to tbody
+//     // musicianTbody.append(tableRow);
+//     //create td
+//     let tableD = document.createElement('td');
+//     //print fname 
+//     tableD.textContent = `any ole first name`;
+//     //add td to tr
+//     tableRow.append(tableD);
+//   //   //print lname
+//   //   tableD.textContent = `${person[i].lastName}`;
+//   //   //add td to tr
+//   //   tableRow.append(tableD);
+//   //   //print age
+//   //   tableD.textContent = `${person[i].age}`;
+//   //   //add td to tr
+//   //   tableRow.append(tableD);
+//   //   //print zip code
+//   //   tableD.textContent = `${person[i].zipCode}`;
+//   //   //add td to tr
+//   // tableRow.append(tableD);
+//   }
+// // musicianTbody.append(tableRow);
+// // musicianTable.append(musicianTbody);
+// }
+// printInfo(people[page]);
 
-printInfo();
-
-//create row for each person and add to html table 
-//get table
-let musicianTable = document.getElementsByTagName('table');
-//create tbody
-let musicianTbody = document.createElement('tbody');
-//add tbody to table
-musicianTable.append(musicianTbody);
-//create 
   // *** ENTER YOUR CODE HERE ***
   // Write the JavaScript to return a valid table row containing the data for a given Person object
 </script>
